@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1001,
+        "name": "Ananya",
+        "location": "VIT Bhopal main gate",
+        "problem_type": "Pothole",
+        "description": "There is a large pothole near the main gate .",
+        "status": "Resolved"
+    },
+    {
+        "id": 1002,
+        "name": "Riya",
+        "location": "Hostel Area",
+        "problem_type": "Garbage",
+        "description": "Garbage has not been collected.",
+        "status": "Pending"
+    },
+    {
+        "id": 1003,
+        "name": "Priya",
+        "location": "Hostel Block",
+        "problem_type": "Water Leakage",
+        "description": "Water is leaking near the entrance.",
+        "status": "Pending"
+    },
+    {
+        "id": 1004,
+        "name": "Aman",
+        "location": "Campus Road",
+        "problem_type": "Damaged Road",
+        "description": "Road surface is damaged.",
+        "status": "Pending"
+    }
+]
