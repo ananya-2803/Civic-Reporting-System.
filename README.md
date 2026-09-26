@@ -121,7 +121,208 @@ The system was tested by:
 - Generating complaint statistics
 - Testing invalid inputs
 
-11. Future Enhancements
+11.Sample Output
+======================================
+       CIVIC REPORTING SYSTEM
+======================================
+1. Report a Complaint
+2. View All Complaints
+3. Search Complaint
+4. Update Complaint Status
+5. Generate Complaint Report
+6. Exit
+
+Enter your choice: 1
+
+========== REPORT A COMPLAINT ==========
+Enter your name: Nancy
+Enter location: Delhi 
+
+Select Problem Type:
+1. Pothole
+2. Garbage
+3. Streetlight
+4. Water Leakage
+5. Damaged Road
+6. Fallen Tree
+7. Traffic Problem
+Enter your choice: 4
+Describe the problem: There's water leakage in my area.
+
+Complaint submitted successfully!
+Your Complaint ID is: 1008
+
+======================================
+       CIVIC REPORTING SYSTEM
+======================================
+1. Report a Complaint
+2. View All Complaints
+3. Search Complaint
+4. Update Complaint Status
+5. Generate Complaint Report
+6. Exit
+
+Enter your choice: 2
+
+========== ALL COMPLAINTS ==========
+
+Complaint ID: 1001
+Name: Ananya
+Location: VIT Bhopal main gate
+Problem: Pothole
+Description: There is a large pothole near the main gate .
+Status: Resolved
+--------------------------------
+
+Complaint ID: 1002
+Name: Riya
+Location: Hostel Area
+Problem: Garbage
+Description: Garbage has not been collected.
+Status: Pending
+--------------------------------
+
+Complaint ID: 1003
+Name: Priya
+Location: Hostel Block
+Problem: Water Leakage
+Description: Water is leaking near the entrance.
+Status: Pending
+--------------------------------
+
+Complaint ID: 1004
+Name: Aman
+Location: Campus Road
+Problem: Damaged Road
+Description: Road surface is damaged.
+Status: Pending
+--------------------------------
+
+Complaint ID: 1005
+Name: Garima
+Location: Bhopal
+Problem: Damaged Road
+Description: The road here is damaged badly.
+Status: Resolved
+--------------------------------
+
+Complaint ID: 1006
+Name: Mayank
+Location: Ghaziabaad
+Problem: Garbage
+Description: Lack of dustbins .
+Status: Pending
+--------------------------------
+
+Complaint ID: 1007
+Name: Kavita
+Location: Bhopal
+Problem: Streetlight
+Description: The lights are not working
+Status: Pending
+--------------------------------
+
+Complaint ID: 1008
+Name: Nancy
+Location: Delhi
+Problem: Water Leakage
+Description: There's water leakage in my area.
+Status: Pending
+--------------------------------
+======================================
+       CIVIC REPORTING SYSTEM
+======================================
+1. Report a Complaint
+2. View All Complaints
+3. Search Complaint
+4. Update Complaint Status
+5. Generate Complaint Report
+6. Exit
+
+Enter your choice: 3
+
+========== SEARCH COMPLAINT ==========
+1. Search by Complaint ID
+2. Search by Location
+3. Search by Problem Type
+Enter choice: 1
+Enter Complaint ID: 1006
+
+========== SEARCH RESULTS ==========
+
+Complaint ID: 1006
+Name: Mayank
+Location: Ghaziabaad
+Problem: Garbage
+Description: Lack of dustbins .
+Status: Pending
+--------------------------------
+
+======================================
+       CIVIC REPORTING SYSTEM
+======================================
+1. Report a Complaint
+2. View All Complaints
+3. Search Complaint
+4. Update Complaint Status
+5. Generate Complaint Report
+6. Exit
+
+Enter your choice: 4
+Enter Complaint ID: 1006
+
+Current Status: Pending
+
+Select New Status:
+1. Pending
+2. In Progress
+3. Resolved
+Enter choice: 3
+
+Complaint status updated successfully!
+======================================
+       CIVIC REPORTING SYSTEM
+======================================
+1. Report a Complaint
+2. View All Complaints
+3. Search Complaint
+4. Update Complaint Status
+5. Generate Complaint Report
+6. Exit
+
+Enter your choice: 5
+
+========== CIVIC REPORT ==========
+
+Total Complaints: 8
+Pending: 5
+In Progress: 0
+Resolved: 3
+
+Problem-wise Statistics:
+Pothole : 1
+Garbage : 2
+Water Leakage : 2
+Damaged Road : 2
+Streetlight : 1
+
+======================================
+       CIVIC REPORTING SYSTEM
+======================================
+1. Report a Complaint
+2. View All Complaints
+3. Search Complaint
+4. Update Complaint Status
+5. Generate Complaint Report
+6. Exit
+
+Enter your choice: 6
+
+Thank you for using Civic Reporting System!
+PS C:\Users\sarla\Downloads\Civic Reporting System> 
+
+
+12. Future Enhancements
 
 - Web-based interface
 - User login and authentication
